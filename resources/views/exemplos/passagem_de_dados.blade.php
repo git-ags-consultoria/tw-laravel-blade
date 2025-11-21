@@ -1,2 +1,4 @@
-<h1><?= $nome ?></h1>
-<p><?= $descricao ?></p>
+<h1>{{ $nome }}</h1>
+<p>{{ $descricao }}</p>
+{{ "Escapado" }}
+{!! "Sem escapar" !!}
